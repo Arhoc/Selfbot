@@ -1,4 +1,4 @@
-package main
+package main // BTW
 
 import (
 	"github.com/bwmarrin/discordgo"
