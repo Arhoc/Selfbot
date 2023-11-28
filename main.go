@@ -1,4 +1,4 @@
-package main // BTW
+package main // BTW REDHAT
 
 import (
 	"github.com/bwmarrin/discordgo"
