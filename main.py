@@ -6,8 +6,8 @@ bot = discum.Client(token=os.getenv("TOKEN"), log=False)
 @bot.gateway.command
 def command(resp):
     if resp.event.ready_supplemental:
-        user = bot.gateway.session.user
-        print(f"Logged in as {user['name']}{user['discriminator']}")
+        bot.gateway.setPlayingStatus("Red Hat Enterprise Linux 8.9")
+        print("Logged in")
         os.system("neofetch")
 
     if resp.event.message:
